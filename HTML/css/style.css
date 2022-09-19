@@ -125,7 +125,7 @@ a.btn-startgames:hover {
       align-items: center;
     }
 	span.img-ste1 {
-    background: url(Regeme/icons/img-ste1.png) no-repeat;
+    background: url(/icons/img-ste1.png) no-repeat;
     display: block;
     width: 560px;
     height: 420px;
