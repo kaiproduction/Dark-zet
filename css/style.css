@@ -23,7 +23,7 @@ a.btn-login {
 span.ic-sx21 {
     width: 21px;
     height: 21px;
-    background: url(/HTML/icons/ic26.png) no-repeat;
+    background: url(/icons/ic26.png) no-repeat;
     background-size: contain;
     margin-left: 10px;
     float: left;
@@ -54,7 +54,7 @@ a.btn-startgames:hover {
 .drop-ed {
     width: 25px;
     height: 6px;
-    background: url(/HTML/icons/droped.png) no-repeat;
+    background: url(/icons/droped.png) no-repeat;
     background-size: contain;
     cursor: pointer;
 }
@@ -125,7 +125,7 @@ a.btn-startgames:hover {
       align-items: center;
     }
 	span.img-ste1 {
-    background: url(/HTML/icons/img-ste1.png) no-repeat;
+    background: url(/icons/img-ste1.png) no-repeat;
     display: block;
     width: 560px;
     height: 420px;
@@ -764,7 +764,7 @@ span.num-video:after {
 span.video-icons {
     width: 65px;
     height: 65px;
-    background: url(/HTML/icons/video.png);
+    background: url(/icons/video.png);
     display: block;
 }
 .promo-donate {
