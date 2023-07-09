@@ -9,7 +9,6 @@
 body {
   font-family: Arial, sans-serif;
   color: #fff;
-  background-color: #000;
 }
 
 .container {
@@ -52,7 +51,6 @@ body {
   width: 100%;
   height: 4px;
   background-color: #f00;
-  border-radius: 2px;
 }
 
 .menu {
@@ -107,7 +105,7 @@ body {
   display: inline-block;
   padding: 10px 20px;
   background-color: #f00;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 16px;
   border-radius: 4px;
@@ -152,19 +150,21 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(#f00, transparent 20%) center / 8px 8px no-repeat;
+  background: radial-gradient(rgb(255, 255, 255) 5%, transparent 5%) 0 0, radial-gradient(rgb(255, 255, 255) 5%, transparent 5%) 25px 25px, radial-gradient(rgb(255, 0, 0) 5%, transparent 5%) 50px 50px, radial-gradient(rgb(255, 0, 0) 5%, transparent 5%) 75px 75px;
+  background-size: 100px 100px;
   z-index: -1;
   opacity: 0.2;
   pointer-events: none;
   animation: backgroundAnimation 20s linear infinite;
+  background-color: #000;
 }
 
 @keyframes backgroundAnimation {
-  from {
-    background-position: 0 0;
+  0% {
+    background-position: 0 0, 25px 25px, 50px 50px, 75px 75px;
   }
-  to {
-    background-position: 100% 100%;
+  100% {
+    background-position: 0 -100px, -25px -125px, -50px -150px, -75px -175px;
   }
 }
 
@@ -183,7 +183,6 @@ body {
     background-color: #000;
     padding: 20px;
     text-align: center;
-    z-index: 99;
   }
 
   .menu.open {
